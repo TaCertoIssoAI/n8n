@@ -1,0 +1,91 @@
+{
+  "name": "gravando",
+  "nodes": [
+    {
+      "parameters": {
+        "inputSource": "passthrough"
+      },
+      "id": "c055762a-8fe7-4141-a639-df2372f30060",
+      "typeVersion": 1.1,
+      "name": "When Executed by Another Workflow",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "position": [
+        176,
+        352
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "chat-api",
+        "operation": "send-presence",
+        "instanceName": "={{ $json.instancia }}",
+        "remoteJid": "={{ $json.numeroQuemEnviou }}",
+        "presence": "recording",
+        "delay": 5000
+      },
+      "type": "n8n-nodes-evolution-api.evolutionApi",
+      "typeVersion": 1,
+      "position": [
+        784,
+        352
+      ],
+      "id": "370b5a38-08ed-4f00-b0b5-a34a3fcd6285",
+      "name": "Enviar presen a",
+      "credentials": {
+        "evolutionApi": {
+          "id": "eqxlhesufSqRANlp",
+          "name": "Evolution account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "amount": 1
+      },
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        480,
+        352
+      ],
+      "id": "e438ab65-7df6-4f11-b48e-b93836bbdded",
+      "name": "Wait",
+      "webhookId": "fc99f15c-ba85-4d89-a654-261bc9e94ac6"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When Executed by Another Workflow": {
+      "main": [
+        [
+          {
+            "node": "Wait",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait": {
+      "main": [
+        [
+          {
+            "node": "Enviar presen a",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "ddc843d6-fbfe-41d3-ab37-2f43c16e3a3c",
+  "meta": {
+    "instanceId": "66003f19454addf7e955bb54c53f18bcbbdbda71fc5e07836f0a61d5116098f0"
+  },
+  "id": "EzbRZCst1inojcez",
+  "tags": []
+}

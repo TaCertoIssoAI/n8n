@@ -1,0 +1,90 @@
+{
+  "name": "digitando",
+  "nodes": [
+    {
+      "parameters": {
+        "inputSource": "passthrough"
+      },
+      "id": "c055762a-8fe7-4141-a639-df2372f30060",
+      "typeVersion": 1.1,
+      "name": "When Executed by Another Workflow",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "position": [
+        288,
+        352
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "chat-api",
+        "operation": "send-presence",
+        "instanceName": "={{ $json.instancia }}",
+        "remoteJid": "={{ $json.numeroQuemEnviou }}",
+        "delay": 15000
+      },
+      "type": "n8n-nodes-evolution-api.evolutionApi",
+      "typeVersion": 1,
+      "position": [
+        896,
+        352
+      ],
+      "id": "c0a73961-6056-46d1-85ee-b4ae8198efd8",
+      "name": "Enviar presen a",
+      "credentials": {
+        "evolutionApi": {
+          "id": "eqxlhesufSqRANlp",
+          "name": "Evolution account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "amount": 1
+      },
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        592,
+        352
+      ],
+      "id": "0cccee04-9c82-4f9e-94e9-ed675b1b2ef1",
+      "name": "Wait",
+      "webhookId": "fc99f15c-ba85-4d89-a654-261bc9e94ac6"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When Executed by Another Workflow": {
+      "main": [
+        [
+          {
+            "node": "Wait",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wait": {
+      "main": [
+        [
+          {
+            "node": "Enviar presen a",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "77177a8d-9a98-4913-90fa-69a78f2c023b",
+  "meta": {
+    "instanceId": "66003f19454addf7e955bb54c53f18bcbbdbda71fc5e07836f0a61d5116098f0"
+  },
+  "id": "VKNa3gWsRf9NZLzy",
+  "tags": []
+}

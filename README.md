@@ -2,7 +2,7 @@
 
 ## Como funciona o Fluxo (n8n)
 
-O arquivo `n8n.json` contém a lógica completa do bot. O fluxo opera da seguinte maneira:
+O arquivo `fake-news-detector.json` contém o fluxo da lógica principal do bot, enquanto os outros arquivos.json contém o fluxo de outros sub-workflows utilizados durante a execução do workflow principal. O fluxo principal opera da seguinte maneira:
 
 1.  **Recebimento de Mensagens**: O fluxo é acionado via Webhook (integrado à **Evolution API**) sempre que uma nova mensagem é recebida no WhatsApp.
 2.  **Verificação de Contexto**: O sistema verifica se a mensagem foi enviada diretamente para o bot (privado) ou se ele foi mencionado em um grupo, garantindo que ele só responda quando solicitado.

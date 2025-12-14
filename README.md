@@ -14,6 +14,10 @@ O arquivo `n8n.json` contém a lógica completa do bot. O fluxo opera da seguint
 4.  **Análise de Veracidade**: O conteúdo extraído é enviado para nossa **API proprietária**, que utiliza modelos de IA (OpenAI GPT / Gemini), web scraping e técnicas de fact-checking para identificar inconsistências, tom alarmista ou informações falsas.
 5.  **Resposta ao Usuário**: O resultado da análise é enviado de volta para o usuário no WhatsApp, em formato de texto ou áudio, mantendo a acessibilidade.
 
+## Imagem do fluxo
+
+![imagem](n8n.webp)
+
 ## Tecnologias e Integrações
 
 Este workflow utiliza os seguintes nós e serviços principais:

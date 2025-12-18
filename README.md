@@ -9,7 +9,7 @@ O arquivo `fake-news-detector.json` contém o fluxo da lógica principal do bot,
 3.  **Classificação de Conteúdo**: O sistema identifica automaticamente o tipo de mídia recebida:
     *   **Texto**: Analisado diretamente.
     *   **Áudio**: Transcrito para texto utilizando **OpenAI Whisper**.
-    *   **Imagem**: Analisada via modelos de visão da **OpenAI**.
+    *   **Imagem**: Analisada via modelos de visão da **OpenAI** e por meio de busca reversa no google.
     *   **Vídeo**: Processado e analisado utilizando **Google Gemini**.
 4.  **Análise de Veracidade**: O conteúdo extraído é enviado para nossa **API proprietária**, que utiliza modelos de IA (OpenAI GPT / Gemini), web scraping e técnicas de fact-checking para identificar inconsistências, tom alarmista ou informações falsas.
 5.  **Resposta ao Usuário**: O resultado da análise é enviado de volta para o usuário no WhatsApp, em formato de texto ou áudio, mantendo a acessibilidade.

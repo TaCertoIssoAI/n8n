@@ -36,8 +36,9 @@ Este workflow utiliza os seguintes nós e serviços principais:
 Para rodar este fluxo em sua própria instância do n8n:
 
 1.  **Importar o Workflow**:
-    *   Baixe o arquivo `n8n.json` deste repositório.
+    *   Baixe o arquivo `fake-news-detector.json` deste repositório.
     *   No seu painel do n8n, vá em "Workflows" > "Import from File" e selecione o arquivo.
+    *   Faça o mesmo para os demais workflows presentes neste repositório.
 
 2.  **Configurar Credenciais**:
     Você precisará configurar as seguintes credenciais no n8n:

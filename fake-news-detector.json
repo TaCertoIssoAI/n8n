@@ -11,7 +11,7 @@
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "typeVersion": 1.8,
       "position": [
-        -1392,
+        -976,
         11264
       ],
       "id": "9cb19a7c-e4b0-4bc5-b665-14d7788105f5",
@@ -35,7 +35,7 @@
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
       "position": [
-        -2272,
+        -1856,
         11264
       ],
       "id": "107d7102-6323-4e97-82c9-73a30c6e78a9",
@@ -51,7 +51,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        -2672,
+        -2256,
         11264
       ],
       "id": "8110d65c-ba26-443a-a275-03e4c235c1dd",
@@ -223,7 +223,7 @@
       "type": "n8n-nodes-base.switch",
       "typeVersion": 3.2,
       "position": [
-        -3472,
+        -3056,
         12000
       ],
       "id": "041c7a50-6711-485d-8247-e3e5c1940b79",
@@ -246,7 +246,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        -688,
+        -272,
         11552
       ],
       "id": "9fc777c0-6e7c-4fd0-b3c5-756a89ab4035",
@@ -268,7 +268,7 @@
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "typeVersion": 1.8,
       "position": [
-        256,
+        672,
         11264
       ],
       "id": "cbac322b-b5cb-4bc0-80e1-c91b6934dd1d",
@@ -288,7 +288,7 @@
       "type": "n8n-nodes-base.extractFromFile",
       "typeVersion": 1,
       "position": [
-        528,
+        944,
         11264
       ],
       "id": "d19c6f69-e70a-43de-b551-1aa73976ab9e",
@@ -306,7 +306,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        784,
+        1200,
         11264
       ],
       "id": "cde6f1a9-2ee8-4d9f-86fd-026fefe686aa",
@@ -330,7 +330,7 @@
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
       "position": [
-        -2272,
+        -1856,
         11872
       ],
       "id": "6e1387e8-697d-4008-bca1-bf46c8c2b87d",
@@ -347,7 +347,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        -3696,
+        -3280,
         12064
       ],
       "id": "a63d8ce4-46ff-47b8-8164-1d3c13878acc",
@@ -376,7 +376,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        -3072,
+        -2656,
         12352
       ],
       "id": "e551eba8-a07b-4779-a988-175bbe70a2b9",
@@ -405,7 +405,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        -2272,
+        -1856,
         11552
       ],
       "id": "12356e8e-bc2b-4fa5-830e-2e308236515d",
@@ -428,7 +428,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        -3072,
+        -2656,
         11264
       ],
       "id": "aa6e21af-227a-425e-8d0f-e3b86a2828bb",
@@ -457,7 +457,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        -3072,
+        -2656,
         11552
       ],
       "id": "74f8a502-9726-4665-bfa9-32f0d70d2e87",
@@ -486,7 +486,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        -3072,
+        -2656,
         11872
       ],
       "id": "78141815-16cd-4ebf-8c05-9ca8e61ed502",
@@ -519,7 +519,7 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        -976,
+        -560,
         11552
       ],
       "id": "aaf3a51c-7ff6-4861-8692-5688cbc0ef00",
@@ -546,7 +546,7 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        -1104,
+        -688,
         11264
       ],
       "id": "7d579cf9-5695-4244-a0de-d7e4f2b673e1",
@@ -562,7 +562,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        -2672,
+        -2256,
         12112
       ],
       "id": "6c0ce3e3-136b-4fbc-a92f-faaa85899942",
@@ -591,7 +591,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        -3072,
+        -2656,
         12112
       ],
       "id": "9e2ecbdf-b635-4547-80ad-01b4e1abc4d7",
@@ -615,7 +615,7 @@
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
       "position": [
-        -2064,
+        -1648,
         12112
       ],
       "id": "c217001c-8d03-4e85-83cf-23f5370839a6",
@@ -638,7 +638,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        -816,
+        -400,
         11264
       ],
       "id": "a84d490a-a760-4ef0-ac7e-176c53bfa966",
@@ -661,7 +661,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        -528,
+        -112,
         11264
       ],
       "id": "440ad7cd-d76a-495d-9d28-d2ef776c177d",
@@ -683,7 +683,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        -2672,
+        -2256,
         11872
       ],
       "id": "568633d3-c62d-4d5a-944b-a76b8d4cc042",
@@ -707,7 +707,7 @@
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
       "position": [
-        -2256,
+        -1840,
         13008
       ],
       "id": "c5a40175-f543-4eed-94e5-578a02e853bb",
@@ -874,7 +874,7 @@
       "type": "n8n-nodes-base.switch",
       "typeVersion": 3.2,
       "position": [
-        -3472,
+        -3056,
         13744
       ],
       "id": "54bd5694-7502-4808-a6f9-25a516ae3ce8",
@@ -892,7 +892,7 @@
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
       "position": [
-        -2256,
+        -1840,
         13616
       ],
       "id": "4384f0da-86fe-4436-a2f3-fe3b80e4336d",
@@ -909,7 +909,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        -3696,
+        -3280,
         13808
       ],
       "id": "c55dce69-afaf-4eb7-9c9b-cbd84e6c25ff",
@@ -938,7 +938,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        -2256,
+        -1840,
         13296
       ],
       "id": "0186574b-3280-4f37-9e12-2ec4cd369391",
@@ -961,7 +961,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        -3072,
+        -2656,
         13008
       ],
       "id": "75b41b5b-0f11-4eab-a9c1-79052a63b0d9",
@@ -990,7 +990,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        -3072,
+        -2656,
         13296
       ],
       "id": "6c990b72-0698-4074-9361-0845f0113f5c",
@@ -1019,7 +1019,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        -3072,
+        -2656,
         13616
       ],
       "id": "72591d81-afd6-4d3a-869f-4ee5fbcadb46",
@@ -1048,7 +1048,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        -3072,
+        -2656,
         13856
       ],
       "id": "0d3dadb4-4b46-4e0a-9def-d5e4a6390d18",
@@ -1072,7 +1072,7 @@
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
       "position": [
-        -2256,
+        -1840,
         13856
       ],
       "id": "9990a786-f76d-48ab-9815-72845d1d719b",
@@ -1099,7 +1099,7 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        -2640,
+        -2224,
         13008
       ],
       "id": "fddd9bc9-45f2-4d5e-aefe-822f7527b966",
@@ -1170,8 +1170,8 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        -4832,
-        12048
+        -5232,
+        12016
       ],
       "id": "67c9e655-e02b-4df8-ad85-573e9273a717",
       "name": "Pegar dados"
@@ -1197,7 +1197,7 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        -2640,
+        -2224,
         13616
       ],
       "id": "33cc4b5f-3d9d-4474-ba54-91efedfc355b",
@@ -1224,7 +1224,7 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        -2640,
+        -2224,
         13856
       ],
       "id": "77c7b990-8559-4697-8205-33a0992327e7",
@@ -1239,8 +1239,8 @@
       "type": "n8n-nodes-base.webhook",
       "typeVersion": 2.1,
       "position": [
-        -5120,
-        12048
+        -5520,
+        12016
       ],
       "id": "05608d99-aa1e-4a4f-83f3-6336d31b0453",
       "name": "Mensagem recebida",
@@ -1264,7 +1264,7 @@
       "type": "@n8n/n8n-nodes-langchain.googleGemini",
       "typeVersion": 1,
       "position": [
-        -432,
+        -16,
         12496
       ],
       "id": "beecdb3c-4bd3-4b15-b554-b55e1078cf04",
@@ -1297,7 +1297,7 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        608,
+        1024,
         12768
       ],
       "id": "d4f9a277-7de3-4b7a-9375-80e9813a0aa8",
@@ -1320,7 +1320,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        912,
+        1328,
         12768
       ],
       "id": "5499b164-abc4-4e45-97b1-2542d9b27348",
@@ -1353,7 +1353,7 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        608,
+        1024,
         12480
       ],
       "id": "2fbd9971-6c6e-4e3b-a434-f18ff50b8270",
@@ -1376,7 +1376,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        912,
+        1328,
         12480
       ],
       "id": "ca15126c-3867-4312-8852-ee51e04dcdd2",
@@ -1409,7 +1409,7 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        528,
+        944,
         12160
       ],
       "id": "451f56eb-1322-4f4b-ad6c-e6811f765636",
@@ -1432,7 +1432,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        832,
+        1248,
         12160
       ],
       "id": "8cb2b3bc-e848-4ecf-a56c-cc6219da0158",
@@ -1461,7 +1461,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        832,
+        1248,
         11872
       ],
       "id": "21768179-2376-4e81-84b7-e179629f212f",
@@ -1490,7 +1490,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        -3072,
+        -2656,
         14096
       ],
       "id": "2260802c-82ce-46ab-84d8-d8e9569308a6",
@@ -1530,7 +1530,7 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        128,
+        544,
         11888
       ],
       "id": "69cf4519-ea1e-43c7-a4d9-fa4a99f42b6f",
@@ -1564,7 +1564,7 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        208,
+        624,
         12496
       ],
       "id": "6f3c16ec-f7ea-4278-baa1-0c4a7809bd6e",
@@ -1593,7 +1593,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        -64,
+        352,
         11888
       ],
       "id": "ebe4bba8-f779-4c56-aeea-e5c1ea9e3ca1",
@@ -1622,7 +1622,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        -80,
+        336,
         12496
       ],
       "id": "698794b8-b3ac-4509-b4b5-ae56ebe1bfc7",
@@ -1666,7 +1666,7 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        -4352,
+        -3936,
         12352
       ],
       "id": "4629be5c-7fa5-4ac2-ba0a-bb223b88dd13",
@@ -1700,7 +1700,7 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        -4144,
+        -3728,
         12624
       ],
       "id": "69c496c0-a47a-43a6-8d21-e3ed74cb8842",
@@ -1713,7 +1713,7 @@
           "value": "VKNa3gWsRf9NZLzy",
           "mode": "list",
           "cachedResultUrl": "/workflow/VKNa3gWsRf9NZLzy",
-          "cachedResultName": "digitanado"
+          "cachedResultName": "digitando"
         },
         "workflowInputs": {
           "mappingMode": "defineBelow",
@@ -1730,7 +1730,7 @@
       "type": "n8n-nodes-base.executeWorkflow",
       "typeVersion": 1.3,
       "position": [
-        1008,
+        1424,
         10480
       ],
       "id": "b531a5bf-beb3-49b5-8d55-dc47b2baceff",
@@ -1759,7 +1759,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        768,
+        1184,
         10480
       ],
       "id": "0ce05e05-1e69-44c4-9389-9befc31ef303",
@@ -1789,7 +1789,7 @@
       "type": "n8n-nodes-base.executeWorkflow",
       "typeVersion": 1.3,
       "position": [
-        592,
+        1008,
         10720
       ],
       "id": "9f3c2813-c0ce-46e3-88b5-ee1c8e41a213",
@@ -1818,7 +1818,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        352,
+        768,
         10720
       ],
       "id": "45cd7571-63d3-4ab3-9b5a-65666f7cbe57",
@@ -1851,7 +1851,7 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        -4560,
+        -4144,
         12048
       ],
       "id": "ffca5ab6-d1a7-47bc-a8a1-e376088b8703",
@@ -1881,7 +1881,7 @@
       "type": "n8n-nodes-base.executeWorkflow",
       "typeVersion": 1.3,
       "position": [
-        -496,
+        -80,
         12064
       ],
       "id": "bf550f37-631a-4fd8-bdb2-e0609aab6c57",
@@ -1896,7 +1896,7 @@
       "type": "n8n-nodes-base.merge",
       "typeVersion": 3.2,
       "position": [
-        -256,
+        160,
         11888
       ],
       "id": "f47d756d-386a-4dee-8380-3e98c8ba9663",
@@ -1923,7 +1923,7 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        528,
+        944,
         11872
       ],
       "id": "d6a73499-2fbc-450e-a06c-78797027c545",
@@ -1954,7 +1954,7 @@
       "type": "n8n-nodes-base.executeWorkflow",
       "typeVersion": 1.3,
       "position": [
-        -496,
+        -80,
         11872
       ],
       "id": "b923e02f-2b27-4b71-a020-a0525fe62f77",
@@ -1987,7 +1987,7 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        -1264,
+        -848,
         12256
       ],
       "id": "450a1dfd-6fa2-40ae-8932-824d82326e37",
@@ -2010,7 +2010,7 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        -432,
+        -16,
         12720
       ],
       "id": "d3772acb-3fd8-452d-b658-4cc06a3bfbb0",
@@ -2029,7 +2029,7 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        -2064,
+        -1648,
         12320
       ],
       "id": "162fedf5-23d8-417e-a8a0-be9402d63654",
@@ -2044,11 +2044,166 @@
       "type": "n8n-nodes-base.merge",
       "typeVersion": 3.2,
       "position": [
-        -1536,
+        -1120,
         12256
       ],
       "id": "2d7980ed-e0d9-4ce4-aa13-c2c3814eee52",
       "name": "Merge1"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "c5b1f96f-11b4-40c2-abe3-dfec04827442",
+              "leftValue": "={{ $json.mensagem }}",
+              "rightValue": "tacertoissoai.com.br/termos-e-privacidade",
+              "operator": {
+                "type": "string",
+                "operation": "contains"
+              }
+            }
+          ],
+          "combinator": "or"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        -4944,
+        12016
+      ],
+      "id": "9af7dd26-19ac-4efb-93e5-f5776723ff26",
+      "name": "se é mensagem inicial do bot"
+    },
+    {
+      "parameters": {
+        "resource": "chat-api",
+        "operation": "read-messages",
+        "instanceName": "={{ $json.instancia }}",
+        "remoteJid": "={{ $json.numeroQuemEnviou }}",
+        "messageId": "={{ $json.idMensagem }}"
+      },
+      "type": "n8n-nodes-evolution-api.evolutionApi",
+      "typeVersion": 1,
+      "position": [
+        -4656,
+        11632
+      ],
+      "id": "99e31acd-aaad-4ddc-9627-2224d09f4c93",
+      "name": "Marcar mensagens como lidas",
+      "credentials": {
+        "evolutionApi": {
+          "id": "eqxlhesufSqRANlp",
+          "name": "Evolution account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "return items.map(item => {\n  const mensagem = item.json.mensagem || \"\";\n\n  const normalizada = mensagem\n    .toLowerCase()\n    .normalize(\"NFD\")\n    .replace(/[\\u0300-\\u036f]/g, \"\")\n    .trim();\n\n  const saudacoes = [\n    \"oi\",\n    \"ola\",\n    \"eai\",\n    \"iae\",\n    \"iai\",\n    \"fala\",\n    \"fala ai\",\n    \"fala ae\",\n    \"bom dia\",\n    \"boa tarde\",\n    \"boa noite\",\n    \"opa\",\n    \"salve\",\n    \"alo\",\n    \"oii\",\n    \"oiii\",\n    \"ola tudo bem\",\n    \"oi tudo bem\",\n    \"bom dia tudo bem\",\n    \"boa tarde tudo bem\",\n    \"boa noite tudo bem\"\n  ];\n\n  item.json.ehSaudacao = saudacoes.includes(normalizada);\n\n  return item;\n});"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -4672,
+        12032
+      ],
+      "id": "f1ab4293-6989-4e54-a942-459d5a07c587",
+      "name": "Code in JavaScript1"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "380da424-df6a-4dcb-b83b-2a6c67a31f8f",
+              "leftValue": "={{ $json.ehSaudacao }}",
+              "rightValue": "",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        -4432,
+        12032
+      ],
+      "id": "a3ca54f7-8fad-4f58-896d-d3f31b277da8",
+      "name": "se é saudação"
+    },
+    {
+      "parameters": {
+        "resource": "messages-api",
+        "instanceName": "={{ $('Pegar dados').item.json.instancia }}",
+        "remoteJid": "={{ $('Pegar dados').item.json.numeroQuemEnviou }}",
+        "messageText": "=Olá! 👋\nObrigado por usar nossa ferramenta de verificação de informações.\nAntes de começarmos, informamos que ao continuar você concorda com nossos *Termos e Condições* e *Política de Privacidade*:\ntacertoissoai.com.br/termos-e-privacidade\n\nÉ só enviar a mensagem, imagem, vídeo, link ou áudio que você quer verificar. 😊\n\nSaiba mais na nossa plataforma online:\nhttps://tacertoissoai.com.br",
+        "options_message": {
+          "quoted": {
+            "messageQuoted": {
+              "messageId": "={{ $('Pegar dados').item.json.idMensagem }}"
+            }
+          }
+        }
+      },
+      "type": "n8n-nodes-evolution-api.evolutionApi",
+      "typeVersion": 1,
+      "position": [
+        -4000,
+        11632
+      ],
+      "id": "95eac99c-dd3a-414c-8dac-5b8b0836d3f5",
+      "name": "Enviar texto38",
+      "credentials": {
+        "evolutionApi": {
+          "id": "eqxlhesufSqRANlp",
+          "name": "Evolution account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "resource": "chat-api",
+        "operation": "read-messages",
+        "instanceName": "={{ $json.instancia }}",
+        "remoteJid": "={{ $json.numeroQuemEnviou }}",
+        "messageId": "={{ $json.idMensagem }}"
+      },
+      "type": "n8n-nodes-evolution-api.evolutionApi",
+      "typeVersion": 1,
+      "position": [
+        -4192,
+        11632
+      ],
+      "id": "e13b57eb-f847-4b8a-a138-5de802484b21",
+      "name": "Marcar mensagens como lidas1",
+      "credentials": {
+        "evolutionApi": {
+          "id": "eqxlhesufSqRANlp",
+          "name": "Evolution account"
+        }
+      }
     }
   ],
   "pinData": {},
@@ -2498,7 +2653,7 @@
       "main": [
         [
           {
-            "node": "isOnGroup",
+            "node": "se é mensagem inicial do bot",
             "type": "main",
             "index": 0
           }
@@ -2852,13 +3007,76 @@
           }
         ]
       ]
+    },
+    "se é mensagem inicial do bot": {
+      "main": [
+        [
+          {
+            "node": "Marcar mensagens como lidas",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Code in JavaScript1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Marcar mensagens como lidas": {
+      "main": [
+        []
+      ]
+    },
+    "Code in JavaScript1": {
+      "main": [
+        [
+          {
+            "node": "se é saudação",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "se é saudação": {
+      "main": [
+        [
+          {
+            "node": "Marcar mensagens como lidas1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "isOnGroup",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Marcar mensagens como lidas1": {
+      "main": [
+        [
+          {
+            "node": "Enviar texto38",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
   "active": true,
   "settings": {
     "executionOrder": "v1"
   },
-  "versionId": "18ca41ea-2382-4919-aaba-0fc5d0cb605b",
+  "versionId": "8a84a4b5-9981-41c1-a941-4e99001fbfd3",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "66003f19454addf7e955bb54c53f18bcbbdbda71fc5e07836f0a61d5116098f0"

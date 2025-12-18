@@ -1666,8 +1666,8 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        -3936,
-        12352
+        -4320,
+        12336
       ],
       "id": "4629be5c-7fa5-4ac2-ba0a-bb223b88dd13",
       "name": "isMentionOfTheBot"
@@ -1700,8 +1700,8 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        -3728,
-        12624
+        -3792,
+        12688
       ],
       "id": "69c496c0-a47a-43a6-8d21-e3ed74cb8842",
       "name": "isResponseToMessage"
@@ -1851,8 +1851,8 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        -4144,
-        12048
+        -4944,
+        12016
       ],
       "id": "ffca5ab6-d1a7-47bc-a8a1-e376088b8703",
       "name": "isOnGroup"
@@ -2077,10 +2077,10 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.3,
       "position": [
-        -4944,
-        12016
+        -4320,
+        12032
       ],
-      "id": "9af7dd26-19ac-4efb-93e5-f5776723ff26",
+      "id": "8acba054-318e-46fe-8d23-0f125fe8bda7",
       "name": "se é mensagem inicial do bot"
     },
     {
@@ -2094,10 +2094,10 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        -4656,
-        11632
+        -4032,
+        11648
       ],
-      "id": "99e31acd-aaad-4ddc-9627-2224d09f4c93",
+      "id": "a1d92bed-7dc5-443f-9125-1bb42996b563",
       "name": "Marcar mensagens como lidas",
       "credentials": {
         "evolutionApi": {
@@ -2113,10 +2113,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        -4672,
-        12032
+        -4048,
+        12048
       ],
-      "id": "f1ab4293-6989-4e54-a942-459d5a07c587",
+      "id": "682d9fd1-4ac4-47cb-960e-4f74f20bc05d",
       "name": "Code in JavaScript1"
     },
     {
@@ -2147,10 +2147,10 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.3,
       "position": [
-        -4432,
-        12032
+        -3808,
+        12048
       ],
-      "id": "a3ca54f7-8fad-4f58-896d-d3f31b277da8",
+      "id": "c9661e97-5f92-40d6-af41-9b6dfb68548f",
       "name": "se é saudação"
     },
     {
@@ -2170,10 +2170,10 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        -4000,
-        11632
+        -3344,
+        11664
       ],
-      "id": "95eac99c-dd3a-414c-8dac-5b8b0836d3f5",
+      "id": "1fecb397-cbc4-4678-a5d9-f88b39f8da33",
       "name": "Enviar texto38",
       "credentials": {
         "evolutionApi": {
@@ -2193,10 +2193,10 @@
       "type": "n8n-nodes-evolution-api.evolutionApi",
       "typeVersion": 1,
       "position": [
-        -4192,
-        11632
+        -3536,
+        11664
       ],
-      "id": "e13b57eb-f847-4b8a-a138-5de802484b21",
+      "id": "af152cf5-9e5e-48ac-aa9c-545e9016c661",
       "name": "Marcar mensagens como lidas1",
       "credentials": {
         "evolutionApi": {
@@ -2653,7 +2653,7 @@
       "main": [
         [
           {
-            "node": "se é mensagem inicial do bot",
+            "node": "isOnGroup",
             "type": "main",
             "index": 0
           }
@@ -2917,7 +2917,7 @@
         ],
         [
           {
-            "node": "Marcar mensagens como lidas2",
+            "node": "se é mensagem inicial do bot",
             "type": "main",
             "index": 0
           }
@@ -3026,11 +3026,6 @@
         ]
       ]
     },
-    "Marcar mensagens como lidas": {
-      "main": [
-        []
-      ]
-    },
     "Code in JavaScript1": {
       "main": [
         [
@@ -3053,7 +3048,7 @@
         ],
         [
           {
-            "node": "isOnGroup",
+            "node": "Marcar mensagens como lidas2",
             "type": "main",
             "index": 0
           }
@@ -3076,7 +3071,7 @@
   "settings": {
     "executionOrder": "v1"
   },
-  "versionId": "8a84a4b5-9981-41c1-a941-4e99001fbfd3",
+  "versionId": "3c701f20-a61a-44f1-bd1b-fcb5fe0c6a2a",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "66003f19454addf7e955bb54c53f18bcbbdbda71fc5e07836f0a61d5116098f0"
